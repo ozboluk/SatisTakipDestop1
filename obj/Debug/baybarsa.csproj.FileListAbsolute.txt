@@ -1,0 +1,15 @@
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\baybars.exe.config
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\baybars.exe.manifest
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\baybars.application
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\baybars.exe
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\EntityFramework.dll
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\EntityFramework.xml
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybarsa.csprojAssemblyReference.cache
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybarsa.csproj.CoreCompileInputs.cache
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybars.exe.manifest
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybars.application
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybarsa.csproj.CopyComplete
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybars.exe
+C:\Users\İbrahim ÖZBÖLÜK\Source\Repos\baybars\baybars\obj\Debug\baybars.pdb

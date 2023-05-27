@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BarkodcuboModelStoreContainer" CdmEntityContainer="BarkodcuboEntities">
+    <EntitySetMapping Name="Bay_SatisTarihi">
+      <EntityTypeMapping TypeName="BarkodcuboModel.Bay_SatisTarihi">
+        <MappingFragment StoreEntitySet="Bay_SatisTarihi">
+          <ScalarProperty Name="SatisAdeti" ColumnName="SatisAdeti" />
+          <ScalarProperty Name="SatisTarihi" ColumnName="SatisTarihi" />
+          <ScalarProperty Name="Barkod" ColumnName="Barkod" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

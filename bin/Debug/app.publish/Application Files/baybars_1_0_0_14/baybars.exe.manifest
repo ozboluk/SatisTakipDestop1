@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="baybars.exe" version="1.0.0.14" publicKeyToken="7686173a3d16bfc1" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="baybars" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="baybars.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="baybars.exe" size="12784">
+      <assemblyIdentity name="baybars" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>STXVSA/RVzqoIa8zQQZivpk0dNm1FOJO2AnHa6TNHHk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5225168">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>nCD7KthqdgsMauvZMByQCYkdAq4UcgqTkmwLU1uK0Js=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="622288">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4OEmw7inupUB0D+Z1Upcu9F0vOy2FwCYq0zBIZ8n+TM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="baybars.exe.config" size="1465">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>S/zLDy0p2i0+QjRJmVx7XrAJXibEcGlUIVDCoIkWn20=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BaybarsBarkod.Context.tt" size="22937">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i/vTB9BEepBBAp23cVpdFbvMunPv+bjJi2BjpYYqArE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="BaybarsBarkod.tt" size="25282">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>545iKmRcIpUQsM+MEA47aFZ2WFBJ8x96BOMzsnI0eCM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-CKJJJ8J\ibrahim" issuerKeyHash="ea712bf5ad73f5aed83640333e25f12694797e9d" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BwAgV6PCt3J4Wh3odOwFyWiJD4Qo7pCW9RTxMJVczfo=</DigestValue></Reference></SignedInfo><SignatureValue>bOaLH1KCEiUUAA3KRZDiyCh8z1FrcjNDwj2Om+TeU7dyT0p0uz4iNrJneM8ciYTQCWKlEbKHJvX+/YsUmQcfUvEpO7kHrfqGRoaCHnzVt4pdmCcHbWArMdYcImAmFEkFDyaebBOxcTB8X/Ut46Svq3x46QVoo9t7Gp/EJVWIXAU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zMGLHTd0/r/Wle2cC6RPC/0vW7muEBzbJWa9iYi9isHL1EoMp8OroX9sLrLb8IWTSm5OWmEdjPtGpJczhwVklpe3zUHHxCXKeIw1bRYXoNUQeggyRUZ2E0S/HouFaexUPu69KAelPrh8x8axKK0CJJSYo6rJ9QNVfEnn2Bk2q1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="facd5c9530f114f59690ee28840f8968c905ec74e81d5a7872b7c2a357200007" Description="" Url=""><as:assemblyIdentity name="baybars.exe" version="1.0.0.14" publicKeyToken="7686173a3d16bfc1" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-CKJJJ8J\ibrahim</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>GWWxPm3zlvFGJ1yA/bOJsVIWvaqkRAepfkNnp5mz+SE=</DigestValue></Reference></SignedInfo><SignatureValue>FuXwbeph7ZovK2qQAS8WlmFWz9Im+hV7LXdLVr1h7lhNAJ4KChZDHBxjF6dygrZSTsWAHZIct5mT8OGxgEdPUlX9IqnSlKDYcd/PxMAWocrrsXvbPva0kLgaGzEkORk5Eb+qJ3AtOGSLtMMDewJP1TEfgQsu3kwn0mZ52eU/Hyc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zMGLHTd0/r/Wle2cC6RPC/0vW7muEBzbJWa9iYi9isHL1EoMp8OroX9sLrLb8IWTSm5OWmEdjPtGpJczhwVklpe3zUHHxCXKeIw1bRYXoNUQeggyRUZ2E0S/HouFaexUPu69KAelPrh8x8axKK0CJJSYo6rJ9QNVfEnn2Bk2q1E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB9TCCAV6gAwIBAgIQFCSnG82aCYxLQ2qq88NX5jANBgkqhkiG9w0BAQsFADA5MTcwNQYDVQQDHi4ARABFAFMASwBUAE8AUAAtAEMASwBKAEoASgA4AEoAXABpAGIAcgBhAGgAaQBtMB4XDTIyMDkyNzExNTQxMVoXDTIzMDkyNzE3NTQxMVowOTE3MDUGA1UEAx4uAEQARQBTAEsAVABPAFAALQBDAEsASgBKAEoAOABKAFwAaQBiAHIAYQBoAGkAbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAzMGLHTd0/r/Wle2cC6RPC/0vW7muEBzbJWa9iYi9isHL1EoMp8OroX9sLrLb8IWTSm5OWmEdjPtGpJczhwVklpe3zUHHxCXKeIw1bRYXoNUQeggyRUZ2E0S/HouFaexUPu69KAelPrh8x8axKK0CJJSYo6rJ9QNVfEnn2Bk2q1ECAwEAATANBgkqhkiG9w0BAQsFAAOBgQBA2zwAr17RkndXiPbuIemn/UL+6LeHuFGAKwje3PykX+JomaIE/WWmqzgnT51Xtk8gmtZtZ4g/wBYNSleQVTnM6j8F8eXR5NfXn532Q4pc8X5SBX2CjCz7lPxCrOLX0l66vK78C57dJwp7huaU2rFcDlvX0XqIbe2wGJ+Gu2SGSA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
